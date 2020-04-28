@@ -68,14 +68,14 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 80px;
+  height: 150px;
   z-index: 997;
   transition: all 0.5s;
 }
 
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  height: 60px;
+  height: 110px;
   background: #fff;
 }
 
@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #header {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    height: 60px;
+    height: 120px;
     background: #fff;
   }
   #header .logo h1 {
